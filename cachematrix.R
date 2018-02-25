@@ -82,12 +82,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## cacheSolve() was previously executed, the inverse of the
 ## matrix will be calculated. Otherwise, the inverse will be
 ## retrieved from cache.
-## 
-## cacheSolve() first calls the getinverse() function to
-## determine whether the value of m in the makeCacheMatrix()
-## environment is NULL. It assigns the returned value to the
-## vector m in its own environment.
-## 
+
 
 cacheSolve <- function(x, ...) {
 
